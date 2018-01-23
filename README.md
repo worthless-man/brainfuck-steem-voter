@@ -10,4 +10,4 @@ Steem vote robot written in Brainfuck
   4.3 Repeat 4.1 and 4.2 with YOUR_NICKNAME in robot.bf
   4.4 node preparememory.js {your curator} curator
   4.5 Replace YOUR_CURATOR in robot.bf with the string you got on 4.4
-5. node robot.js
+5. node robot.js {robot.bf}
