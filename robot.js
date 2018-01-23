@@ -21,7 +21,7 @@ opsfilter = function(d){
         }
         text = brainfuck.text(program, stream);
         command = text.split(' ');
-        if(command[0] == 'vote' && o.voter == 'xui')
+        if(command[0] == 'vote')
         {
             steem.broadcast.vote(command[1], command[2], command[3], command[4], Number(command[5]), function(err, result){console.log(err, result);});
             console.log(text);
